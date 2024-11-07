@@ -22,3 +22,5 @@ myArray.pop();  // Removes 90
 myArray.pop();  // Removes 80
 
 
+console.log('Array after popping 3 values:', myArray);
+
