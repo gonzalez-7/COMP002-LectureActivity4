@@ -16,3 +16,9 @@ myArray.push(60, 70, 80, 90, 100);
 // Output the contents of the array after push
 console.log('Array after pushing 5 more values:', myArray);
 
+// Step 5: Use the pop() method 3 times
+myArray.pop();  // Removes 100
+myArray.pop();  // Removes 90
+myArray.pop();  // Removes 80
+
+
