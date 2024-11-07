@@ -9,3 +9,10 @@ console.log('Last value:', myArray[myArray.length - 1]);
 for (let i = 0; i < myArray.length; i++) {
     console.log('Array value at index', i, ':', myArray[i]);
 }
+
+// Step 4: Use the push() method to add 5 more values
+myArray.push(60, 70, 80, 90, 100);
+
+// Output the contents of the array after push
+console.log('Array after pushing 5 more values:', myArray);
+
