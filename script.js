@@ -5,3 +5,7 @@ let myArray = [10, 20, 30, 40, 50];
 console.log('First value:', myArray[0]);
 console.log('Last value:', myArray[myArray.length - 1]);
 
+// Step 3: Output each value in the array using a for loop
+for (let i = 0; i < myArray.length; i++) {
+    console.log('Array value at index', i, ':', myArray[i]);
+}
